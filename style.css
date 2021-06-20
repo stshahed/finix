@@ -573,6 +573,7 @@ a.play-animation-btn::before{
 }
 
 /* client testimonial */
+
 .client-testimonial-text{}
 .client-testimonial-text p {
     font-size: 26px;
@@ -584,4 +585,74 @@ a.play-animation-btn::before{
 .client-testimonial-text span {
     color: gray;
     font-size: 20px;
+}
+
+/* team-member */
+.team-member-section{
+    background: #fafbfc;
+    padding: 50px 0;
+}
+.member{
+    padding: 10px;
+}
+
+.member-img img{
+    max-width: 100%;
+}
+.member-img{
+    position: relative;
+}
+.member-social{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.member-social ul{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+.member-social ul li{
+    display: inline-block;
+    transition: .4s ease-in-out;
+    transform: translateY(40px);
+    opacity: 0;
+    visibility: hidden;
+}
+.member-img:hover .member-social ul li{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.member-img:hover .member-social ul li:nth-child(1){
+    transition-delay: .1s;
+}
+.member-img:hover .member-social ul li:nth-child(2){
+    transition-delay: .2s;
+}
+.member-img:hover .member-social ul li:nth-child(3){
+    transition-delay: .3s;
+}
+.member-img:hover .member-social ul li:nth-child(4){
+    transition-delay: .4s;
+}
+.member-social ul li a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #111;
+}
+.member-content{}
+.member-content h4 {
+    color: #e83b3e;
+    font-size: 22px;
+    padding-top: 30px;
+}
+.member-content span {
+    color: gray;
 }
