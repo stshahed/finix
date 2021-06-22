@@ -656,3 +656,143 @@ a.play-animation-btn::before{
 .member-content span {
     color: gray;
 }
+
+/* success section */
+.success-content{}
+.success-content img{
+    max-width: 100%;
+}
+.success-content span {
+    color: #e83b3e;
+    display: inline-block;
+    padding: 17px 0;
+    font-size: 20px;
+}
+.success-content h2 {
+    font-size: 23px;
+    line-height: 34px;
+    padding-bottom: 10px;
+    transition: .4s;
+}
+.success-content h2:hover{
+    color: #e83b3e;
+}
+.success-content:hover h5{
+    color: #e83b3e;
+    letter-spacing: 2px;
+}
+.success-content h5 {
+    font-size: 17px;
+    transition: .6s;
+}
+
+/* footer */
+.footer{
+    background: #111;
+    color: #fff;
+}
+.footer-up{
+    padding: 80px 0;
+}
+/* footer-first */
+.footer-first{}
+.footer-first img{}
+.footer-first p {
+    padding: 20px 0;
+    line-height: 31px;
+}
+.footer-first ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-first ul li{}
+.footer-first ul li i {
+    display: inline-block;
+    color: #fff;
+    padding-left: 13px;
+    transition: .4s;
+}
+.footer-first ul li i:hover{
+    color: #e83b3e;
+}
+/* footer same */
+.footer-same h3 {
+    font-size: 22px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid rgb(70, 70, 70);
+}
+.footer-same ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-same ul li {
+    padding-top: 15px;
+    transition: .6s;
+}
+.footer-same ul li:hover{
+    color: #e83b3e;
+    letter-spacing: 1px;
+}
+/* footer contact */
+.footer-contact h3{
+    font-size: 22px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid rgb(70, 70, 70);
+}
+.location{
+    padding-top: 15px;
+}
+.location span i {
+    display: inline-block;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.mail span i {
+    display: inline-block;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.mail-right p {
+    margin-bottom: 0;
+    transition: .6s;
+}
+.mail-right p:hover{
+    color: #e83b3e;
+}
+.call{
+    padding-top: 20px;
+}
+.call span i{
+    display: inline-block;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.call-right p{
+    margin-bottom: 0;
+    transition: .6s;
+}
+.call-right p:hover{
+    color: #e83b3e;
+}
+
+
+.footer-down {
+    text-align: center;
+    border-top: 1px solid rgb(70, 70, 70);
+    padding: 28px 0;
+}
+.footer-down p{
+    margin-bottom: 0;
+    color: gray;
+}
+.footer-down p span{
+    font-size: 20px;
+    transition: .5s;
+    color: #fff;
+}
+.footer-down p span:hover{
+    color: #e83b3e;
+}
